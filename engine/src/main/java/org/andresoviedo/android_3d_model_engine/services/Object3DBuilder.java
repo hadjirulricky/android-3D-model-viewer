@@ -61,6 +61,22 @@ public final class Object3DBuilder {
 			0.0f, 0.0f, 0.0f, 2.0f, 0.0f, 0.0f, // right
 			0.0f, 0.0f, 0.0f, -2.0f, 0.0f, 0.0f, // left
 
+			// Duplicate layers to make a thicker line effect
+			0.0f, 0.0f, 0.0f, 2.0f, 0.01f, 0.0f,
+			0.0f, 0.0f, 0.0f, -2.0f, 0.01f, 0.0f,
+			0.0f, 0.0f, 0.0f, 2.0f, 0.015f, 0.0f,
+			0.0f, 0.0f, 0.0f, -2.0f, 0.015f, 0.0f,
+			0.0f, 0.0f, 0.0f, 2.0f, 0.02f, 0.0f,
+			0.0f, 0.0f, 0.0f, -2.0f, 0.02f, 0.0f,
+			0.0f, 0.0f, 0.0f, 2.0f, 0.025f, 0.0f,
+			0.0f, 0.0f, 0.0f, -2.0f, 0.025f, 0.0f,
+			0.0f, 0.0f, 0.0f, 2.0f, 0.03f, 0.0f,
+			0.0f, 0.0f, 0.0f, -2.0f, 0.03f, 0.0f,
+			0.0f, 0.0f, 0.0f, 2.0f, 0.035f, 0.0f,
+			0.0f, 0.0f, 0.0f, -2.0f, 0.035f, 0.0f,
+			0.0f, 0.0f, 0.0f, 2.0f, 0.04f, 0.0f,
+			0.0f, 0.0f, 0.0f, -2.0f, 0.04f, 0.0f,
+
 			2, -0.05f, 0, 2.1f, -0.05f, 0, // right -
 			-2, -0.1f, 0, -1.90f, -0.1f, 0, -1.95f, -0.05f, 0, -1.95f, -0.15f, 0, // left +
 	};
@@ -69,6 +85,22 @@ public final class Object3DBuilder {
 			0.0f, 0.0f, 0.0f, 0.0f, 2.0f, 0.0f, // up
 			0.0f, 0.0f, 0.0f, 0.0f, -2.0f, 0.0f, // down
 
+			// Duplicate layers to make a thicker line effect
+			0.0f, 0.0f, 0.0f, 0.01f, 2.0f, 0.0f,
+			0.0f, 0.0f, 0.0f, 0.01f, -2.0f, 0.0f,
+			0.0f, 0.0f, 0.0f, 0.015f, 2.0f, 0.0f,
+			0.0f, 0.0f, 0.0f, 0.015f, -2.0f, 0.0f,
+			0.0f, 0.0f, 0.0f, 0.02f, 2.0f, 0.0f,
+			0.0f, 0.0f, 0.0f, 0.02f, -2.0f, 0.0f,
+			0.0f, 0.0f, 0.0f, 0.025f, 2.0f, 0.0f,
+			0.0f, 0.0f, 0.0f, 0.025f, -2.0f, 0.0f,
+			0.0f, 0.0f, 0.0f, 0.03f, 2.0f, 0.0f,
+			0.0f, 0.0f, 0.0f, 0.03f, -2.0f, 0.0f,
+			0.0f, 0.0f, 0.0f, 0.035f, 2.0f, 0.0f,
+			0.0f, 0.0f, 0.0f, 0.035f, -2.0f, 0.0f,
+			0.0f, 0.0f, 0.0f, 0.04f, 2.0f, 0.0f,
+			0.0f, 0.0f, 0.0f, 0.04f, -2.0f, 0.0f,
+
 			-0.05f, 2f, 0f, -0.15f, 2f, 0f, -0.1f, 2.05f, 0f, -0.1f, 1.95f, 0f, // top +
 			-0.05f, -2.0f, 0.0f, -0.15f, -2.0f, 0.0f, // bottom -
 	};
@@ -76,6 +108,22 @@ public final class Object3DBuilder {
 	final static float[] zAxisVertexLinesData = new float[] {
 			0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 2.0f, // z+
 			0.0f, 0.0f, 0.0f, 0.0f, 0.0f, -3.5f, // z-
+
+			// Duplicate layers to make a thicker line effect
+			0.0f, 0.0f, 0.0f, 0.01f, 0.0f, 2.0f,
+			0.0f, 0.0f, 0.0f, 0.01f, 0.0f, -3.5f,
+			0.0f, 0.0f, 0.0f, 0.015f, 0.0f, 2.0f,
+			0.0f, 0.0f, 0.0f, 0.015f, 0.0f, -3.5f,
+			0.0f, 0.0f, 0.0f, 0.02f, 0.0f, 2.0f,
+			0.0f, 0.0f, 0.0f, 0.02f, 0.0f, -3.5f,
+			0.0f, 0.0f, 0.0f, 0.025f, 0.0f, 2.0f,
+			0.0f, 0.0f, 0.0f, 0.025f, 0.0f, -3.5f,
+			0.0f, 0.0f, 0.0f, 0.03f, 0.0f, 2.0f,
+			0.0f, 0.0f, 0.0f, 0.03f, 0.0f, -3.5f,
+			0.0f, 0.0f, 0.0f, 0.035f, 0.0f, 2.0f,
+			0.0f, 0.0f, 0.0f, 0.035f, 0.0f, -3.5f,
+			0.0f, 0.0f, 0.0f, 0.04f, 0.0f, 2.0f,
+			0.0f, 0.0f, 0.0f, 0.04f, 0.0f, -3.5f,
 
 			0.0f, -0.05f, 2f, 0.0f, -0.05f, 2.1f, // z-
 			0.0f, -0.1f, -3.5f, 0.0f, -0.1f, -3.6f,
@@ -394,19 +442,19 @@ public final class Object3DBuilder {
 
 	public static Object3DData buildXAxis() {
 		return new Object3DData(
-				createNativeByteBuffer(axisVertexLinesData.length * 4).asFloatBuffer().put(xAxisVertexLinesData))
+				createNativeByteBuffer(xAxisVertexLinesData.length * 4).asFloatBuffer().put(xAxisVertexLinesData))
 				.setDrawMode(GLES20.GL_LINES).setFaces(new Faces(0));
 	}
 
 	public static Object3DData buildYAxis() {
 		return new Object3DData(
-				createNativeByteBuffer(axisVertexLinesData.length * 4).asFloatBuffer().put(yAxisVertexLinesData))
+				createNativeByteBuffer(yAxisVertexLinesData.length * 4).asFloatBuffer().put(yAxisVertexLinesData))
 				.setDrawMode(GLES20.GL_LINES).setFaces(new Faces(0));
 	}
 
 	public static Object3DData buildZAxis() {
 		return new Object3DData(
-				createNativeByteBuffer(axisVertexLinesData.length * 4).asFloatBuffer().put(zAxisVertexLinesData))
+				createNativeByteBuffer(zAxisVertexLinesData.length * 4).asFloatBuffer().put(zAxisVertexLinesData))
 				.setDrawMode(GLES20.GL_LINES).setFaces(new Faces(0));
 	}
 
